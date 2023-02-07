@@ -1,0 +1,35 @@
+//Print odd numbers in an array
+
+/*let oddArray = arr => arr.filter(num => num % 2 !== 0);
+console.log(oddArray([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));*/
+
+//Convert all the strings to title caps in a string array
+
+/*let titleCapsArray = arr => arr.map(word => word.charAt(0).toUpperCase() + word.slice(1));
+console.log(titleCapsArray(["hello", "world", "how", "are", "you"]));*/
+
+//Sum of all numbers in an array
+
+/*let sumArray = arr => arr.reduce((total, num) => total + num, 0);
+console.log(sumArray([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));*/
+
+//Return all the prime numbers in an array
+
+/*let primeArray = arr => arr.filter(num => {
+  if (num <= 1) return false;
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) return false;
+  }
+  return true;
+});
+console.log(primeArray([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));*/
+
+//Return all the palindromes in an array
+
+/*let palindromeArray = arr => arr.filter(word => word === word.split("").reverse().join(""));
+console.log(palindromeArray(["madam", "level", "wow", "pop", "hello"]));*/
+
+
+
+
+
